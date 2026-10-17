@@ -6,6 +6,7 @@ soong_namespace {
     imports: [
         "hardware/mediatek",
         "hardware/mediatek/libmtkperf_client",
+        "device/infinix/X6532",
         "vendor/infinix/X6532",
     ],
 }
@@ -17827,6 +17828,7 @@ cc_prebuilt_binary {
                 "android.hardware.sensors@2.0",
                 "android.hardware.sensors@2.0-ScopedWakelock",
                 "libbase",
+                "libshim_base",
                 "android.hardware.sensors@2.1",
                 "libcutils",
                 "libfmq",
